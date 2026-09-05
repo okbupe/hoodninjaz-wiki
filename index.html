@@ -14,14 +14,14 @@
   * { box-sizing: border-box; }
   html, body { margin:0; padding:0; background:var(--bg); color:var(--text); font-family:"Outfit", ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; font-size:16px; line-height:1.5; overflow-x:hidden; }
   main { max-width: 760px; margin: 0 auto; padding: 28px 18px 60px; }
-  h1 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:600; font-size: clamp(1.8rem, 6vw, 2.4rem); margin: 0 0 6px; }
-  h2 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:600; font-size: 1.25rem; margin: 34px 0 10px; }
+  h1 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:400; font-size: clamp(1.8rem, 6vw, 2.4rem); margin: 0 0 6px; }
+  h2 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:400; font-size: 1.25rem; margin: 34px 0 10px; }
   p.lead { color:var(--muted); margin: 0 0 22px; }
   .grid { display:grid; grid-template-columns: 1fr; gap: 14px; }
   @media (min-width: 640px) { .grid { grid-template-columns: 1fr 1fr; } }
   a.card { display:block; background:var(--card); border:1px solid var(--border); border-radius:16px; padding:20px 18px; text-decoration:none; color:inherit; box-shadow:0 10px 28px rgba(0,0,0,.08); min-height:44px; }
   a.card:active, a.card:hover { border-color:var(--accent); }
-  a.card h3 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:600; font-size:1.2rem; margin:0 0 6px; }
+  a.card h3 { font-family:"Cal Sans","Outfit",ui-sans-serif,system-ui,sans-serif; font-weight:400; font-size:1.2rem; margin:0 0 6px; }
   a.card p { margin:0; color:var(--muted); font-size:.95rem; }
   a.card .go { display:inline-block; margin-top:12px; color:var(--accent); font-weight:500; }
   ul.list { list-style:none; padding:0; margin:0; }
@@ -30,6 +30,8 @@
   ul.list a:hover { color:var(--accent); }
   .sid { display:inline-block; font-family:"JetBrains Mono", ui-monospace, Menlo, Consolas, monospace; font-size:.8rem; background:var(--chip); color:var(--accent); border-radius:6px; padding:1px 6px; margin-right:6px; }
   .meta { display:block; color:var(--muted); font-size:.88rem; margin-top:3px; }
+  a.vlink { color:var(--accent); font-weight:400; text-decoration:none; margin-left:4px; white-space:nowrap; }
+  a.vlink:hover { text-decoration:underline; }
   footer { margin-top: 36px; color: var(--muted); font-size:.85rem; }
   footer a { color: inherit; }
 </style>
@@ -41,30 +43,30 @@
   <div class="grid">
     <a class="card" href="./codex/">
       <h3>The Danim Codex</h3>
-      <p>The canon: the mythology, the power system, Danim City, the characters, the organisations, the timeline and the episodes. The canon wiki.</p>
+      <p>The canon: the mythology, the power system, Danim City, the characters, the organisations, the timeline and the episodes. 97 pages.</p>
       <span class="go">Open the Codex</span>
     </a>
     <a class="card" href="./anime-guide/">
       <h3>The Anime Guide</h3>
-      <p>The craft library: principles drawn from anime writing essays, source-traced and fact-checked, tested against Hood Ninjaz canon. 29 pages.</p>
+      <p>The craft library: principles drawn from anime writing essays, source-traced and fact-checked, tested against Hood Ninjaz canon. 36 pages.</p>
       <span class="go">Open the Guide</span>
     </a>
   </div>
 
   <h2>Ingested so far</h2>
   <ul class="list">
-<li><a href="./anime-guide/#/p/sources-2025-07-12-pavelover-protagonist-powers-ejn82nplqf0"><span class="sid">S-001.md)</span> Pavelover, &quot;How To Write A Protagonist&#x27;s Powers (&amp; How NOT To)&quot;</a><span class="meta">Pavelover, uploaded 2025-07-12. Principles drawn: P-001, P-002, P-003, P-004</span></li>
-<li><a href="./anime-guide/#/p/sources-2025-06-30-pavelover-abilities-with-drawbacks-1e2cax3r2mm"><span class="sid">S-002.md)</span> Pavelover, &quot;Why Are Abilities With Drawbacks Always Superior?&quot;</a><span class="meta">Pavelover, uploaded 2025-06-30. Principles drawn: P-003, P-004</span></li>
-<li><a href="./anime-guide/#/p/sources-2026-07-26-pavelover-villain-group-n933htgvd1u"><span class="sid">S-003.md)</span> Pavelover, &quot;How To Write A Villain Group (&amp; How NOT To)&quot;</a><span class="meta">Pavelover, uploaded 2026-07-26. Principles drawn: P-005, P-006, P-007</span></li>
+<li><a href="./anime-guide/#/p/sources-2025-07-12-pavelover-protagonist-powers-ejn82nplqf0"><span class="sid">S-001</span> Pavelover, &quot;How To Write A Protagonist&#x27;s Powers (&amp; How NOT To)&quot;</a> <a class="vlink" href="https://www.youtube.com/watch?v=EJN82NpLQf0" target="_blank" rel="noopener">[Link]</a><span class="meta">Pavelover, uploaded 2025-07-12. Principles drawn: P-001, P-002, P-003, P-004</span></li>
+<li><a href="./anime-guide/#/p/sources-2025-06-30-pavelover-abilities-with-drawbacks-1e2cax3r2mm"><span class="sid">S-002</span> Pavelover, &quot;Why Are Abilities With Drawbacks Always Superior?&quot;</a> <a class="vlink" href="https://www.youtube.com/watch?v=1e2CAx3R2MM" target="_blank" rel="noopener">[Link]</a><span class="meta">Pavelover, uploaded 2025-06-30. Principles drawn: P-003, P-004</span></li>
+<li><a href="./anime-guide/#/p/sources-2026-07-26-pavelover-villain-group-n933htgvd1u"><span class="sid">S-003</span> Pavelover, &quot;How To Write A Villain Group (&amp; How NOT To)&quot;</a> <a class="vlink" href="https://www.youtube.com/watch?v=n933HtgVd1U" target="_blank" rel="noopener">[Link]</a><span class="meta">Pavelover, uploaded 2026-07-26. Principles drawn: P-005, P-006, P-007</span></li>
+<li><a href="./anime-guide/#/p/sources-2013-09-24-sanderson-laws-of-magic-brandonsanderson-com"><span class="sid">S-004</span> Brandon Sanderson, the three Laws of Magic essays (2007, 2011, 2013)</a> <a class="vlink" href="https://www.brandonsanderson.com/blogs/blog/sandersons-first-law" target="_blank" rel="noopener">[Link]</a><span class="meta">brandonsanderson.com, uploaded 2013-09-24. Principles drawn: P-002, P-004, P-005, P-008, P-009</span></li>
   </ul>
 
   <h2>Queued next</h2>
   <ul class="list">
-<li><span class="sid">4</span> A non-Pavelover source, still to be named (the one-in-four rule)<span class="meta">outside the channel</span></li>
 <li><span class="sid">5</span> How To Write &quot;The Strongest&quot; (&amp; How NOT To)<span class="meta">Strongest / tier and rank tropes</span></li>
 <li><span class="sid">6</span> The 7 Levels Of Power System<span class="meta">Power systems and abilities (general)</span></li>
 <li><span class="sid">7</span> What Happens When A Powerup Can Only Be Used ONCE?<span class="meta">Worldbuilding, symbolism and craft</span></li>
-<li><span class="sid">8</span> A non-Pavelover source, still to be named (the one-in-four rule)<span class="meta">outside the channel</span></li>
+<li><span class="sid">8</span> A grounded-drama writing source, Vision&#x27;s proposal pending Bupe: how a season of Top Boy is written (its writer interviewed)<span class="meta">outside the channel</span></li>
   </ul>
 
   <footer>Generated from the markdown in the private Vision repo, which stays the source of truth. Regenerated on every publish by <code>tools/publish-wikis.sh</code>.</footer>
