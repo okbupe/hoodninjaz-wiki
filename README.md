@@ -1,9 +1,9 @@
 # Hood Ninjaz wikis
 
-Two self-contained wikis published with GitHub Pages from the `gh-pages` branch, each behind a passphrase gate.
+Two self-contained wikis published with GitHub Pages from the `gh-pages` branch. Open to anyone with the link, kept out of search engines (robots.txt and a noindex meta on every page).
 
 - `codex/` The Danim Codex, the canon wiki.
 - `anime-guide/` The Anime Guide, the craft library.
-- `index.html` A landing page linking to both.
+- `index.html` The landing page: both wikis, what has been ingested, what is queued.
 
-Each wiki page is encrypted whole (AES-256-GCM, PBKDF2-SHA256 key derivation) and decrypted in the browser with the Web Crypto API. This repository only ever holds ciphertext; the passphrase is not in it. Built and pushed by `tools/publish-wikis.sh` in the private Vision repo, which regenerates the pages from markdown. Do not edit these files by hand: the next publish overwrites them.
+Built and pushed by `tools/publish-wikis.sh` in the private Vision repo, which regenerates every page from markdown. Do not edit these files by hand: the next publish overwrites them.
